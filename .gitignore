@@ -1,0 +1,12 @@
+# .gitignore edfx
+
+# -- Folders --
+_test
+tmp/cache/*
+vfront
+
+# -- Files --
+conf/conf.php
+**/.DS_Store
+*.DS_Store
+log/*.log

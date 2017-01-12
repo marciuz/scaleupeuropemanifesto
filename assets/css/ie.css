@@ -1,0 +1,27 @@
+/* 
+    Document   : ie.css
+    Created on : 14-apr-2015, 10.20.09
+    Author     : Marcello Verona
+    Description: Rules for Internet Explorer
+*/
+
+#map{
+    overflow: visible;
+}
+
+@media (min-width: 992px) {
+    
+  #map{
+        height: 500px;
+        top: -152px;
+        zoom: 1;
+        position: relative;
+        border: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    #map{
+        position:static;
+    }
+}

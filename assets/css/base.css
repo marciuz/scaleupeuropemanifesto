@@ -1,0 +1,206 @@
+/* 
+    Document   : base
+    Created on : 24-mar-2015, 12.03.09
+    Author     : marcello verona
+    Description: member area css
+*/
+
+@font-face {
+	font-family: 'TradeGothicLTStd';
+	src: url('../fonts/tradegothic/TradeGothicLTStd.eot');
+	src: local('☺'), url('../fonts/tradegothic/TradeGothicLTStd.woff') format('woff'), 
+        url('../fonts/tradegothic/TradeGothicLTStd.ttf') format('truetype'), 
+        url('../fonts/tradegothic/TradeGothicLTStd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TradeGothicLTStd';
+	src: url('../fonts/tradegothic/TradeGothicLTStd-BdCn20.eot');
+	src: local('☺'), url('../fonts/tradegothic/TradeGothicLTStd-BdCn20.woff') format('woff'), 
+        url('../fonts/tradegothic/TradeGothicLTStd-BdCn20.ttf') format('truetype'), 
+        url('../fonts/tradegothic/TradeGothicLTStd-BdCn20.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+body {
+  padding-top: 70px;
+}
+
+.ind-contaniner{
+    
+    margin: 1em 0;
+}
+
+.ind-text{
+    padding-bottom: 20px;
+}
+
+.ind-contaniner .ind-form{
+    padding-left: 20px;
+}
+
+.ind-contaniner .ind-form label{
+    font-weight: normal;
+}
+
+.evidence textarea{
+    width: 600px;
+    max-width: 98%;
+}
+
+.country-selector{
+  font-size: 1.2em;
+  list-style: none;
+  padding: 5px 0;
+}
+
+.country-selector img{
+  max-width: 24px;
+  vertical-align: baseline;
+}
+
+footer #logo-oe{
+    max-height: 40px;
+    float: right;
+    margin-bottom: 40px;
+}
+
+legend{
+    padding: 2px 10px;
+    border: 1px solid #e5e5e5;
+    background-color: #F7F7F7;
+}
+
+fieldset{
+    border: 1px solid #CCC;
+    padding: 1em;
+    margin: 2em 0;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.centered{
+    text-align: center;
+}
+
+span.gray{
+    color: #777;
+    font-size: 0.7em;
+}
+
+.progress{
+  margin-bottom: 0;
+  position: relative;
+}
+
+.progress span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: #FFF;
+    text-shadow: 1px 1px 5px rgba(8, 8, 8, 1);
+}
+
+#expire-msg{
+    margin: 10px 10% 0 10%;
+    max-width: 80%;
+}
+
+.red-fill{
+    border: 1px solid red;
+    outline: none;
+    box-shadow: 0 0 5px red;
+}
+
+/* Brand */
+
+.navbar-brand{
+    font-family: 'TradeGothicLTStd', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: -6px;
+}
+
+.navbar-brand:link, 
+.navbar-brand:visited
+{
+    color: #ec008c !important;
+}
+
+
+.navbar-brand span.beta{
+    font-size: 10px;
+    vertical-align: top;
+    margin-top: 0;
+    padding: 0 0 0 0;
+    color: #000;
+}
+
+.navbar-brand span.secline{
+
+    font-size: 18px;
+    color: #999;
+    display: block;
+}
+
+
+/* Footer */
+
+footer{
+    margin-bottom: 3em;
+    font-size: 0.9em;
+}
+
+.navbar-nav>li>a {
+    
+}
+
+.link-login {
+    clear:both; 
+    text-align: right; 
+    font-size: 13px; 
+    padding-top:10px;
+}
+.link-login a:link,
+.link-login a:visited {
+    color: #999;
+}
+
+
+#ft-sx{
+    font-size: 12px;
+}
+
+#ft-sx h4{
+    color: #ec008c;
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+#ft-dx a{
+    float: right;
+}
+
+.logo-dx-ft{
+    height: 50px;
+}
+
+.aright{
+    text-align: right;
+}
+
+
+
+/* Mobile */
+@media (max-width: 767px) {
+    .fixed {
+        position: static !important;
+    }
+}

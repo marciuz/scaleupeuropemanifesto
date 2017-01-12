@@ -1,0 +1,174 @@
+#map{
+    /* width: 600px; 
+    height: 500px;*/
+}
+
+.subunit { 
+    fill: #1f96a4; 
+    cursor: pointer;
+
+}
+
+.subunit:hover { 
+    fill: #65c190; 
+}
+
+
+.subunit.active{
+    fill: #65c190;
+}
+
+
+.subunit.TUR,
+.subunit.MNE,
+.subunit.BHB,
+.subunit.SRB,
+.subunit.ISL,
+.subunit.NOR,
+.subunit.ALB,
+.subunit.CHE,
+.subunit.KOS,
+.subunit.SRS,
+.subunit.BHB,
+.subunit.BHF,
+.subunit.MKD{
+    fill: #EEE;
+}
+
+#tooltip {
+    position: absolute;
+    width: 242px;
+    height: auto;
+    padding: 5px;
+    -moz-box-shadow: 0 2px 5px #AAA;
+    -webkit-box-shadow: 0 2px 5px #AAA;
+    box-shadow: 0 2px 5px #AAA;
+    pointer-events: none;
+    background-color: #fff;
+    border: 1px solid #999;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  }
+
+  #tooltip.hidden {
+    display: none;
+  }
+
+  #countrydiv {
+    margin: 0 0 0 0;
+    padding: 5px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  #countrydiv h4{
+      color: #65c190;
+      border-bottom: 1px solid #65c190;
+      font-size: 16px;
+  }
+  
+  #countrydiv .ssx{
+      text-align: left;
+      width: 205px;
+      float:left;
+  }
+  
+  #countrydiv .ddx2, 
+  #countrydiv .ddx {
+      text-align: right;
+      float: left;
+  }
+  
+  #countrydiv .ddx{
+      width: 9px;
+      height: 9px;
+      margin-top: 4px;
+  }
+  
+  #countrydiv .ddx2{
+      margin-left: -2px;
+  }
+  
+  #countrydiv .srow{
+      clear: left;
+  }
+  
+  #countrydiv .spacer{
+      padding-top: 1px;
+  }
+  
+  #countrydiv hr{
+      color: #65c190;
+      background-color: #65c190;
+      clear: left;
+      margin: 10px 0;
+      height: 1px;
+  }
+  
+  #countrydiv .percentage{
+      color: #ec008c;
+  }
+  
+  #map{
+      overflow: hidden;
+  }
+
+  #map-legenda{
+      position: relative;
+      margin-top: 68px;
+      margin-left: 30px;
+      width: 200px;
+  }
+  
+  #legenda{
+      float: left;
+      font-size: 2em;
+      width: 200px;
+  }
+  
+  .map-info{
+      font-size: 0.9em;
+      padding-top: 7px;
+  }
+  
+   #map{
+      height: 250px; 
+   }
+  
+@media only screen and (max-device-width: 480px) {
+    
+    #map{
+        width: 100%;
+    }
+    
+}
+
+@media (min-device-width: 768px) {
+    #map{
+        height: 250px;
+    }
+}
+
+@media (min-width: 992px) {
+    
+  #map{
+        height: 250px;
+    }
+}
+
+
+/* Medium-Large screens */
+@media (min-width: 1024px){
+    #map{
+        height: 260px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    #map{
+        height: 280px;  
+    }
+}  

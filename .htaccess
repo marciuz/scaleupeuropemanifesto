@@ -1,0 +1,13 @@
+# Avvio esplicitamente il rewrite
+RewriteEngine On
+
+#RewriteRule ^corsi-ecm-fad/([a-z_-]+)/([a-z0-9_-]+)\.html?$ /corsi-ecm-fad/$2\.html [L,R=301]
+#RewriteRule ^corsi-ecm-fad/([a-z0-9_-]+)\.html?$ index.php?page=catalogo_new&disc=$1 [QSA,L]
+
+RewriteRule ^members/?$  private.php?page=priority&src=home [QSA,L]
+RewriteRule ^members/([a-z0-9_-]+)/?   private.php?page=$1 [QSA,L]
+
+RewriteRule ^(dashboard|about|export|experts|info|tablevis|countries)$   index.php?page=$1 [QSA,L]
+RewriteRule ^dashboard/([A-Z_]+)-([0-9]+)$   index.php?page=dashboard_detail&c=$1&id=$2 [QSA,L]
+RewriteRule ^country/([A-Z_]+)-?([0-9]*)$   index.php?page=country_detail&c=$1&id=$2 [QSA,L]
+
