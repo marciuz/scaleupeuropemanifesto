@@ -23,15 +23,6 @@ spl_autoload_register(function ($class) {
 /* AUTOLOADER COMPOSER */
 require_once(FRONT_ROOT."/vendor/autoload.php");
 
-// Twig
-require_once(FRONT_ROOT.'/inc/twig/lib/Twig/Autoloader.php');
-Twig_Autoloader::register();
-$loader = new Twig_Loader_Filesystem('./tpl');
-$twig = new Twig_Environment($loader, array(
-    'cache' => './tmp/cache',
-));
-
-
 $vmsql = mysqli_vmsql::init();
 $vmsql->connect($db1,'UTF8');
 

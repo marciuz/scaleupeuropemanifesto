@@ -5,7 +5,7 @@
     <p><?php echo $this->country['summary'];?></p>
     <hr />
     <p>To track progress in the implementation of other priorities and actions across countries – visit the interactive <a href="../dashboard">Dashboard page</a></p>
-    <p>The Startup Manifesto Policy Tracker is a dynamic tool, open to 
+    <p>The Scale Up Manifesto Policy Tracker is a dynamic tool, open to 
         suggestions for improvement and external contributions. If you would 
         like to share with us a country or regional initiative which you believe 
         should be included in this survey, please leave your comment below.</p>

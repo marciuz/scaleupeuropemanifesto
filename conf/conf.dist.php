@@ -24,18 +24,18 @@ define('FRONT_ROOT', str_replace("/conf","",realpath(__DIR__)));
 
 define('FRONT_ERROR_LOG',FRONT_ROOT."/errors.log");
 define('FRONT_ENCODING','UTF-8');
-define('SESSION_NAME','startupmanifestotracker');
+define('SESSION_NAME','scaleupmanifesto');
 
 define('EMAIL_ADMIN','marcelloverona@gmail.com');
 define('EMAIL_STAFF','marcelloverona@gmail.com');
 
-$DEBUG_SQL=true;
+$DEBUG_SQL=false;
 $DEBUG_SQL_STRING=array();
 
 // google analytics
-// define('GOOGLE_ANALYTICS_CODE','UA-39433218-1');
+define('GOOGLE_ANALYTICS_CODE','');
 
-define('PROJ_NAME', 'Startup Manifesto Tracker');
+define('PROJ_NAME', 'Scale Up Europe Manifesto Tracker');
 
 // DB connection
 $db1['dbtype']="mysql";

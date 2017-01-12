@@ -11,10 +11,10 @@
 ### Installation ###
 
 - Create a new database
-- Restore the DB with the sql script (_sql/edfx_db.sql)
+- Restore the DB with the sql script (_sql/db_export.sql)
 - Copy the file conf/conf.dist.php to conf/conf.php 
 - Adjust conf/conf.php with the database connection and the other parameters
-- Uncomment the GOOGLE_ANALYTICS_CODE definition and fill the value to activate the monitoring
+- Fill the GOOGLE_ANALYTICS_CODE definition with the right value to activate the monitoring
 
 ### Folders permissions ###
 

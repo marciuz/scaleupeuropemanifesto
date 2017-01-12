@@ -1,69 +1,46 @@
 <div class="row">
     <div class="col-sm-7 col-md-8">
         <section id="intro-text">
-            <p><em>A manifesto for entrepreneurship and innovation to power growth in the European Union.</em></p>
-
-            <p>That’s what nine wildly successful European entrepreneurs – founders and 
-                co-founders of eight fast-growing, cutting-edge, globally competitive 
-                Internet startups – set out to write in 2013. In a 14-page roadmap 
-                containing 22 action points, the Manifesto called on European leaders 
-                to do more to make it easier for European startups to thrive right here 
-                in Europe. And to date, more than 8,000 people have signed the Manifesto, 
-                which has grown into a trans-European campaign and spawned more than 10 
-                national startup manifestoes in the European Union member states.
-            </p>
-
-            <p>But the question remains: how are the 28 members of the European Union 
-                doing on implementing the measures proposed in the Manifesto? To find 
-                out, we created the <strong>Startup Manifesto Policy Tracker</strong>
-                – an online tool 
-                for tracking implementation. The Tracker translates the 22 specific 
-                recommendations in the Startup Manifesto into concrete policies whose 
-                implementation – or non-implementation – can be observed and followed. 
-                The intention is to shed light on what is or isn’t happening at the 
-                member-state level – and to inspire action when and where it counts.
-            </p>
-
-            <p>But we are counting on you. Like Europe itself, this is a crowdsourced 
-                project, whose ultimate success or failure will ride on our 
-                capacity to embrace the future and make things happen today. 
-                If you haven’t already signed the manifesto, please do. And if you 
-                have already signed, please find out what’s being done about it in your 
-                local community – and if the answer is “not much,” please ask people to 
-                do more – and tell us. We’ll incorporate your answers into the Startup 
-                Manifesto Policy Tracker. At the end of the day, it’s your input and 
-                insight that will drive change – and make this project a success.
-            </p>
-
-            <p>To see how your country is doing, click on the Interactive map, 
-                which will take you to a home country summary page. There, you will 
-                find an overview text and a dashboard that spells out concrete action 
-                – or inaction – in six priority areas.
-            </p>
-
-            <p>To take part in this cutting-edge effort to deliver change at the
-                grassroots level and report on progress (or inaction) at the 
-                member-state level, please contact your national expert 
-                or tell us directly about action in the country you know best 
-                through the comments field on each country page. 
-                Don’t be shy. It’s your Europe. Let’s make it the best home 
-                that we can.
-            </p>
-
-        </section>
+            
+            <p><em>A Manifesto for Change and Empowerment in the Digital Age</em></p>
+            <p>There&rsquo;s no shortage of ambitious ideas in Europe; in fact, 
+                the continent boasts more entrepreneurs per capita than the 
+                United States, the traditional benchmark for excellence. But 
+                European startups face a difficult maze of problems &ndash; 
+                restricted national markets, a shortage of capital, a regulatory
+                framework built for 19th century capitalism. That&rsquo;s why we wrote
+                The Scale Up Manifesto, a hard-hitting action plan with 49 proposals 
+                to help Europe &ldquo;scale up.&rdquo; Let&rsquo;s make the next
+                big thing right here in Europe. This is a call to action &ndash;
+                with roles for all, and room for many.</p>
+            
+            <p>Just as for the previous 
+                <a href="http://www.europeandigitalforum.eu/startup-manifest-policy-tracker/"><em>Startup Manifesto</em></a>, 
+                we created the&nbsp;Scaleup Manifesto Policy Tracker&nbsp;&ndash;
+                an online tool for tracking implementation. The Tracker translates
+                the 49 specific recommendations into concrete policies whose 
+                implementation &ndash; or non-implementation &ndash; can be 
+                observed and followed. The intention is to shed light on what 
+                is or isn&rsquo;t happening at EC, member-state level &ndash; 
+                but also by startups and their ecosystem.</p>
+         </section>
 
         <section id="join-text">
-            <h3>About Startup Manifesto </h3>
-
-            <p>The Startup Manifesto is a manifesto for entrepreneurship and innovation 
-                to power growth in the European Union. This ambitious policy document 
-                was written by the Leaders Club, an independent group of founders 
-                of world-leading technology companies based in Europe, including 
-                Atomico, HackFwd, Rovio, Seedcamp, Spotify, Tech City Investment 
-                Organisation (TCIO), Tuenti and The Next Web. The manifesto was 
-                drafted to spur discussion on improving the startup ecosystem and 
-                digital-era performance in the European Union’s 28 member states.
-                For more, visit <a href="http://www.startupmanifesto.eu">http://www.startupmanifesto.eu</a>
+            <h3>About Scale Up Europe Manifesto</h3>
+            <p>The Scale Up Europe Manifesto is a manifesto for entrepreneurship 
+                and innovation to power growth in the European Union. 
+                The manifesto was written as part of a unique six-month experiment
+                in crowdsourcing advanced, eco-system-based research and policy 
+                proposals, led by the European Digital Forum. Among the 
+                organisations taking part in the debates and discussions that 
+                produced the manifesto were the European Startup Network, 
+                Allied for Startups, Beta-i (Portugal), Factory, the German 
+                Startup Association, 1000startupsEU, Startup Cyprus, SAPIE 
+                (the Slovak Alliance for the Internet Economy), Hub358, the 
+                Scale Up Institute (United Kingdom) and many more. In the end, 
+                14 leading startup experts joined as Founding Signatories and 
+                agreed to serve as Scale Up Europe ambassadors-at-large. Visit 
+                http://www.scaleupeuropemanifesto.eu for more.</p>
         </section>
         
         <div class="latest-updates">
@@ -82,22 +59,23 @@
         </div>
         
         <div class="r-block">
-            <h3 class="norm">Download the 2016 Startup Nation Scoreboard</h3>
+            <h3 class="norm">2016 Startup Manifesto Tracker</h3>
             <div id="manifesto" >
                 <div style="border: 0 solid #1f96a4; padding: 1em; text-align: center;">
                     <a href="http://www.europeandigitalforum.eu/index.php/component/attachments/attachments?id=311&task=view"><img width="200" height="283" class="img-manifesto" src="assets/img/2016-startup-nation-scoreboard.png" alt="Download the 2016 Startup Nation Scoreboard" /></a>
                 </div>
-                <div class="map-info"><a href="http://www.europeandigitalforum.eu/index.php/component/attachments/attachments?id=311&task=view">Download the 2016 Startup Nation Scoreboard</a> in PDF format.</div>
+                <div class="map-info"><a href="http://www.europeandigitalforum.eu/index.php/component/attachments/attachments?id=311&task=view">Download the 2016 Startup Nation Scoreboard</a> 
+                    in PDF format and <a href="http://www.europeandigitalforum.eu/startup-manifest-policy-tracker/">check the Startup Manifesto Tracker</a>.</div>
             </div>
         </div>
         
         <div class="r-block">
-            <h3 class="norm">Download the manifesto</h3>
+            <h3 class="norm">Download the Scale Up Europe manifesto</h3>
             <div id="manifesto" >
                 <div style="border: 0 solid #1f96a4; padding: 1em; text-align: center;">
-                    <a href="assets/pdf/Scale_Up_Europe_Brochure.pdf"><img width="200" height="283" class="img-manifesto" src="assets/img/scaleup_europe_manifesto.png" alt="Download the startup manifesto" /></a>
+                    <a href="assets/pdf/Scale_Up_Europe_Brochure.pdf"><img width="200" height="283" class="img-manifesto" src="assets/img/scaleup_europe_manifesto.png" alt="Download the scaleup manifesto" /></a>
                 </div>
-                <div class="map-info"><a href="assets/pdf/Scale_Up_Europe_Brochure.pdf">Download the Startup Manifesto</a> 
+                <div class="map-info"><a href="assets/pdf/Scale_Up_Europe_Brochure.pdf">Download the Scale Up Europe Manifesto</a> 
                     in PDF format and <a href="http://scaleupeuropemanifesto.eu/">join the Scale Up Europe campaign</a>.</div>
             </div>
         </div>

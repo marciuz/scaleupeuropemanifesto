@@ -11,7 +11,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php echo FRONT_DOCROOT;?>/members/">Startup Manifesto <span class="secline">Policy Tracker</span></a>
+          <a class="navbar-brand" href="<?php echo FRONT_DOCROOT;?>/members/">Scale Up Manifesto <span class="secline">Policy Tracker</span></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">

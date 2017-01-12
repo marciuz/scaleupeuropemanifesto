@@ -43,7 +43,7 @@
                 <th class="blank">&nbsp;</th>
                 <th class="th1">Priority / Action</th>
                 <?php foreach($countries as $abbr): ?>
-                <th class="thc<?php echo (in_array($abbr, array('EC', '_S', '_E'))) ? ' thc-special' : '';?>"><?php echo $abbr;?></th>
+                <th class="thc<?php echo (in_array($abbr, array('EC', '_S', '_E', 'STR', 'ECO'))) ? ' thc-special' : '';?>"><?php echo $abbr;?></th>
                 <?php endforeach; ?>
             </tr>
 
@@ -77,7 +77,9 @@
                     </td>
 
                     <?php foreach($arr as $abbr=>$value): ?>
-                    <td class="tdd <?php echo 'cl'.$value;?>" data-val="<?php echo $value;?>" data-c="<?php echo $abbr;?>" data-a="<?php echo $action_n;?>" ><div class="ic" title="<?php echo $action_name;?> in <?php echo $this->co[$abbr];?>" data-toggle="tooltip" /></td>
+                    <td class="tdd <?php echo 'cl'.$value;?>" data-val="<?php echo $value;?>" data-c="<?php echo $abbr;?>" data-a="<?php echo $action_n;?>" >
+                        <div class="ic" title="<?php echo $action_name;?> by <?php echo $this->co[$abbr];?>" data-toggle="tooltip" />
+                    </td>
                     <?php endforeach; ?>
 
                 </tr>

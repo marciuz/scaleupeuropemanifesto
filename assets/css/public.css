@@ -268,6 +268,13 @@ table.dsh{
     cursor: pointer;
 }
 
+.thc.thc-special {
+    font-size: 11px;
+    background-color: #EEE;
+    border: 1px solid rgb(32,23,131);
+    border-bottom: 0;
+}
+
 .action-label div.action-text{
    height: 32px;
    width: 150px;
@@ -667,12 +674,11 @@ h4.detail-h {
 @media (min-width: 768px){
     .navbar-nav>li>a {
         font-size: 11px;
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding: 25px 10px;
     }
     
     #local-nav ul li{
-        max-width: 130px;
+        max-width: 120px;
     }
     
     div.ic{
