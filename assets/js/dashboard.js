@@ -1,9 +1,9 @@
 /**
  * Dashboard Actions
  * 
- * @package EDfx - Startup Manifesto Tracker
+ * @package EDfx2 - Scale Up Europe Manifesto Tracker
  * @author Mario Marcello Verona <marcelloverona@gmail.com>
- * @copyright 2015 Open Evidence
+ * @copyright 2015-2016 Open Evidence
  */
 
 $(document).ready( function(){

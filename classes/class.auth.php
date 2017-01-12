@@ -2,9 +2,9 @@
 /**
  * Auth class
  * 
- * @package EDfx - Startup Manifesto Tracker
+ * @package EDfx2 - Scale Up Europe Manifesto Tracker
  * @author Mario Marcello Verona <marcelloverona@gmail.com>
- * @copyright 2015 Open Evidence
+ * @copyright 2015-2016 Open Evidence
  * @license http://www.gnu.org/licenses/gpl.html GNU Public License
  */
 
