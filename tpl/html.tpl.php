@@ -94,7 +94,7 @@
                              alt="Open Evidence" title="Open Evidence" /></a>
                     
                     </div>
-                    <div class="link-login"><a href="<?php echo FRONT_DOCROOT;?>/members/login">Private area</a></div>
+                    <?php /* <div class="link-login"><a href="<?php echo FRONT_DOCROOT;?>/members/login">Private area</a></div> */ ?>
                 </div>
             </div>
             

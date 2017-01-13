@@ -54,7 +54,7 @@ class Data_Structure {
             FROM action a
             INNER JOIN area r ON a.id_area=r.id_area 
             $where
-            ORDER BY a.action_n ASC";
+            ORDER BY id_area, a.number, a.action_n ASC";
         
         // Load the priorities
         $q = $this->vmsql->query($sql);
