@@ -131,7 +131,10 @@ class Data_Structure {
         
         $actions = array();
         
-        $sql_actions = "SELECT * FROM action WHERE id_area=".intval($id_priority)." ORDER BY number, action_n";
+        $sql_actions = "SELECT * "
+                . "FROM action "
+                . "WHERE id_area=".intval($id_priority)." "
+                . "ORDER BY number, action_n";
         $qa = $this->vmsql->query($sql_actions);
 
         while($RSa = $this->vmsql->fetch_object($qa, 'Action')){

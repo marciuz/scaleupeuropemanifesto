@@ -18,7 +18,8 @@
             <li><a href="http://www.europeandigitalforum.eu/#news" id="l-news">News &amp; Events</a></li>
             <li><a href="http://www.europeandigitalforum.eu/#about" id="l-about">About</a></li>
             <li><a href="http://www.europeandigitalforum.eu/#video" id="l-media">Media</a></li>
-            <li><a href="<?php echo FRONT_DOCROOT;?>" id="l-tracker">Scale Up Europe Manifesto Tracker</a></li>
+            <li><a href="<?php echo FRONT_DOCROOT;?>" id="l-tracker">Scale Up Tracker</a></li>
+            <li><a href="http://www.europeandigitalforum.eu/startup-manifest-policy-tracker/" id="l-tracker-2">Startup Tracker</a></li>
             <li><a href="http://www.europeandigitalforum.eu/#contact" id="l-contact">Contact</a></li>
             <li><a href="https://www.facebook.com/europeandigitalforum" target="_blank" id="l-fb"><i class="fa fa-facebook-official fa-2x"></i></a></li>
             <li><a href="https://twitter.com/@edf_eu" target="_blank" id="l-tw"><i class="fa fa-twitter fa-2x"></i></a></li>

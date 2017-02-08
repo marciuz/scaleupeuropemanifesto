@@ -29,6 +29,8 @@ if(isset($_POST['id_country'])){
 
 $id_country = id_country();
 
+$country_audience = Common::country_audience($id_country);
+
 $_data = $DS->load($id_priority);
 
 $data = $_data->priorities[0];
@@ -60,6 +62,8 @@ foreach ($data->actions as $a){
     }
     
     foreach($a->indicators as $i){
+        
+        if($country_audience != $i->audience) continue;
         
         $defaults = ECC_Array::findWhere($_comp, array('id_indicator' => $i->id_indicator));
         

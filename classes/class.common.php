@@ -55,6 +55,17 @@ class Common {
     }
     
     /**
+     * Get the Country audience from the country ID
+     * @param int $id_country
+     * @return string
+     */
+    public static function country_audience($id_country){
+        
+        $vmsql = mysqli_vmsql::init();
+        return $vmsql->get_item("SELECT ctype FROM _country WHERE id_country=".intval($id_country));
+    }
+    
+    /**
      * Returns the logged user is an administrator
      * @return bool
      */
