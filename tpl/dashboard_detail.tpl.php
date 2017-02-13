@@ -17,7 +17,7 @@ $action_title = ($this->action['action_n'] > 0) ? "Action zzz". ($this->anumbers
 
 </section>
 
-<h3 class="detail-h"><?php echo $action_title;?> in <span><?php echo $this->country['country'];?></span></h3>
+<h3 class="detail-h"><?php echo $action_title;?> by <span><?php echo $this->country['country'];?></span></h3>
 <div class="citation">&#8220;<?php echo $this->action['action'];?>&#8221;</div>
 <table class="ddetail">
     <tr>

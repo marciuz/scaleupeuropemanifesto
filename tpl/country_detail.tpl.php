@@ -51,7 +51,7 @@ for($i=0;$i<count($this->a_indicators); $i++):
     
     ?>
     
-    <h4 id="act-<?php echo $this->a['action_n'];?>" class="detail-h fakelink-over"><i class="fa <?php echo $icon_open;?> icon-title"></i> <?php echo $action_title;?> in <span><?php echo $this->country['country'];?></span></h4>
+    <h4 id="act-<?php echo $this->a['action_n'];?>" class="detail-h fakelink-over"><i class="fa <?php echo $icon_open;?> icon-title"></i> <?php echo $action_title;?> by <span><?php echo $this->country['country'];?></span></h4>
     <div class="citation">&#8220;<?php echo $this->a['action'];?>&#8221;</div>
     <?php if( count($indicators) > 0 ) : ?>
     <table class="ddetail <?php echo $class_id_open;?>" >

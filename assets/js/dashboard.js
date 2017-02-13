@@ -50,7 +50,8 @@ $(document).ready( function(){
     });
     
     $('.thc').on('click', function (){
-        var url = window.location.pathname.replace('dashboard', 'country') + "/" + $(this).text();
+        var abbr = $(this).find('div').data('abbr');
+        var url = window.location.pathname.replace('dashboard', 'country') + "/" + abbr;
         window.location = url;
     });
     

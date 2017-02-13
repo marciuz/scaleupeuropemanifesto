@@ -44,7 +44,7 @@
                 <th class="th1">Priority / Action</th>
                 <?php foreach($countries as $abbr): ?>
                 <th class="thc<?php echo (in_array($abbr, array('EC', '_S', '_E', 'SUP', 'ECO'))) ? ' thc-special' : '';?>">
-                    <div title="<?php echo $this->co[$abbr];?>" data-toggle="tooltip"><?php echo $abbr;?></div>
+                    <div title="<?php echo $this->co[$abbr];?>" data-abbr="<?php echo $abbr;?>" data-toggle="tooltip"><?php echo $abbr;?></div>
                 </th>
                 <?php endforeach; ?>
             </tr>
